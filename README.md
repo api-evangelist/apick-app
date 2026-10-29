@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-apick-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://apick.app/
+Apick.app (에이픽) is a Korean API service platform that provides a wide range of REST APIs for identity verification, financial data, AI services, and more. Developers can obtain API keys, read detailed guides, and integrate services such as ID verification, account real‑name checks, business information lookup, AI large‑language‑model calls, image generation, and video processing. The platform offers a developer guide, pricing information, and a support contact point, and it publishes its terms of service and privacy policy.
+
+**Areas:** API · Korean · Platform · Data · Services
+
+## apick-app on APIs.io
+
+Everything profiled for apick-app is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apick-app/](https://apis.io/providers/apick-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Apick API](https://apis.io/apis/apick-app/apick-api/) — REST API for Apick services as documented in the developer guide.
+- [apick-app API](https://apis.io/apis/apick-app/apick-app-api/) — apick-app API as documented publicly: 27 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetRestLlmSessionsCreateResponse](https://apis.io/schemas/apick-app/apick-app-get-rest-llm-sessions-create-response/)
+- [GetRestLlmSessionsDeleteResponse](https://apis.io/schemas/apick-app/apick-app-get-rest-llm-sessions-delete-response/)
+- [GetRestLlmSessionsGetResponse](https://apis.io/schemas/apick-app/apick-app-get-rest-llm-sessions-get-response/)
+- [GetRestLlmSessionsListResponse](https://apis.io/schemas/apick-app/apick-app-get-rest-llm-sessions-list-response/)
+- [GetRestXPostResponse](https://apis.io/schemas/apick-app/apick-app-get-rest-xpost-response/)
+- [PostNasaStatusStatuidResponse](https://apis.io/schemas/apick-app/apick-app-post-nasa-status-statuid-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Apick App Context](https://apis.io/jsonld/apick-app/apick-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [apick-app API Rules](https://apis.io/rules/apick-app/apick-app-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apick App Authentication](https://apis.io/security/apick-app/apick-app-authentication/)
+- [Apick App Domain Security](https://apis.io/security/apick-app/apick-app-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Apick App Scopes](https://apis.io/scopes/apick-app/apick-app-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Apick App Rate Limits](https://apis.io/rate-limits/apick-app/apick-app-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://apick.app/)
+- [Documentation](https://apick.app/dev_guide/start)
+- [Getting started](https://apick.app/dev_guide/start)
+- [API reference](https://apick.app/dev_guide/start)
+- [Pricing](https://apick.app/ai_llm_pricing)
+- [Sign up](https://apick.app/login)
+- [Support](https://apick.app/)
+- [Blog](https://apick-api.tistory.com/)
+- [Terms of service](https://apick.app/terms)
+- [Privacy policy](https://apick.app/personal_policy)
+
+## API Evangelist rating
+
+**Kin Score 48.5** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 43.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 44.7 |
+
+**Agent readiness 27.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apick-app/](https://apis.io/providers/apick-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for apick-app: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apick-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
